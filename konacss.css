@@ -1,0 +1,21 @@
+.custom-carousel-inner .carousel-item {
+    height: 600px;
+  }
+  
+  .navbar navbar-expand-lg bg-body-tertiary{
+    background-color: rgb(108, 135, 160);
+  }
+  .custom-carousel-inner .carousel-item .carousel-caption {
+    bottom: 8.25rem;
+  }
+  
+  .my-experience, .my-contact-us {
+    background-color: rgb(41, 38, 38);
+  }
+  
+  .my-footer {
+    background-color: dimgray;
+  }
+  .nav-item a{
+    font-size: 20px
+  }

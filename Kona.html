@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Kona</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="konacss.css" />
+  </head>
+  <body>
+    <!-- Start navbar section -->
+    <section class="my-navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+           <p style="font-size: 22px; font-weight: 800; color:rgb(27, 54, 27);">TAMANNA JAHAN KONA</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 custom-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Experiences</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="logout.php"
+                  >Logout</a
+                >
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End navbar section -->
+
+    <!-- Start header section -->
+    <section class="my-carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner custom-carousel-inner">
+          <div class="carousel-item active">
+            <img src="tk.jpg"  class="d-block w-100"/>
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="code.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+            
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="book.jpg"  class="d-block w-100"/>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End header section -->
+
+    <!-- Start about section -->
+    <section class="my-about my-5">
+      <div class="container">
+        <h2 class="text-center mb-5">About me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-side">
+              <i class="fa-solid fa-graduation-cap fa-2x"></i>
+              <h2>Learner</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+                nesciunt laborum est unde hic. Deserunt, sequi. Ut consequuntur
+                cumque fuga possimus recusandae officia odio iusto debitis
+                minima error, cum et!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="rights-side">
+              <i class="fa-solid fa-laptop-code fa-2x"></i>
+              <h2>Developer</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+                earum tenetur nihil inventore, dicta eveniet, nisi incidunt at
+                assumenda praesentium officia iure itaque perspiciatis. Aliquam
+                rerum sapiente quisquam vero quos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about section -->
+
+    <!-- Start experience section -->
+    <section class="my-experience py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 text-white">Experiences</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="left-side">
+              <button class="btn btn-light btn-lg w-75 mb-2 py-4">Project management</button>
+              <button class="btn btn-light btn-lg w-75 mb-2 py-4">Technical Writting</button>
+              <button class="btn btn-light btn-lg w-75 mb-2 py-4">Technical Executive</button>
+              <button class="btn btn-primary btn-md w-50">See more</button>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="rights-side">
+              <img height="500" width="100%" src="image/About.jpg" alt="experience">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End experience section -->
+
+    <!-- Start content section -->
+    <section class="my-content my-5">
+      <div class="container">
+        <h2 class="text-center mb-4">My content</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 mb-2">
+            <div class="my-content">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Learn Python</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, odit.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 mb-2">
+            <div class="my-content">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Compitative Programming</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, reprehenderit.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="my-content">
+              <div class="card">
+                <img src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Office Manner</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, vero.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End content section -->
+
+    <!-- Start conatct us -->
+    <section class="my-contact-us py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center text-white">Contact Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <form class="text-white">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="floatingTextarea">Comments</label>
+                <textarea class="form-control" rows="7"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End contact us -->
+
+    <!-- Start footer -->
+    <section class="my-footer py-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div>
+              <ul class="d-flex list-unstyled justify-content-around mb-0">
+                <li><a href="#" class="text-decoration-none text-white">Facebook</a></li>
+                <li><a href="#" class="text-decoration-none text-white">Twitter</a></li>
+                <li><a href="#" class="text-decoration-none text-white">Linkedin</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
